@@ -20,7 +20,7 @@ top to bottom, one line at a time. There is no notion of
 a **_main()_** function/method in Python.
 4. Python comes with a powerful standard library, which
 provides access to lots of reusable modules (of which
-**datetime_** is just one example).
+**_datetime_** is just one example).
 5. There is a collection of standard data structures
 available to you when you're writing Python
 programs. The list is one of them, and is very similar
@@ -28,8 +28,8 @@ in notion to an array.
 6. The type of a variable does not need to be declared.
 When you assign a value to a variable in Python, it
 dynamically takes on the type of the data it refers to.
-7. You make decisions with the **_if/elif/else**
-statement. The **_if**, **_elif**, and **_else_** keywords
+7. You make decisions with the **_if/elif/else_**
+statement. The **_if_**, **_elif_**, and **_else_** keywords
 precede blocks of code, which are known in the
 Python world as “suites.”
 8. It is easy to spot suites of code, as they are always
@@ -51,7 +51,7 @@ are returned to the shell and are then displayed
 on screen.
 13. The **_for_** loop can be used to iterate a fixed
 number of times. If you know ahead of time how
-many times you need to loop, use **_for**.
+many times you need to loop, use **_for_**.
 14. When you don’t know ahead of time how often
 you’re going to iterate, use Python’s **_while_** loop
 (which we have yet to see, but—don’t worry—we
@@ -64,11 +64,11 @@ program for a specified number of seconds, use
 the **_sleep_** function provided by the standard
 library’s **_time_** module.
 17. You can import a specific function from a module.
-For example, **_from time import sleep**
+For example, **_from time import sleep_**
 imports the sleep function, letting you invoke it
 without qualification.
 18. If you simply import a module—for example,
-**import time**—you then need to qualify the
+**_import time_**-you then need to qualify the
 usage of any of the module’s functions with the
 module name, like so: time.sleep().
 19. The **_random_** module has a very useful function
@@ -109,14 +109,14 @@ shrink dynamically as needed.
 3. In code, a list of objects is enclosed in
 square brackets, and the list objects are
 separated from each other by a comma.
-4. An empty list is represented like this: **_[]**.
+4. An empty list is represented like this: **_[]_**.
 5. The fastest way to check whether an
-object is in a list is to use Python’s **_in**
+object is in a list is to use Python’s **_in_**
 operator, which checks for membership.
 6. Growing a list at runtime is possible
 due to the inclusion of a handful of list
-methods, which include **_append**,
-**extend**, and **_insert**.
+methods, which include **_append_**,
+**_extend_**, and **_insert_**.
 7. Shrinking a list at runtime is possible
 due to the inclusion of the **_remove_** and
 pop methods.
