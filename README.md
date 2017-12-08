@@ -120,3 +120,6 @@ methods, which include **_append_**,
 7. Shrinking a list at runtime is possible
 due to the inclusion of the **_remove_** and
 pop methods.
+8. Take care when copying one list to another. If you want to have another variable reference an existing list,
+use the assignment operator **_(=)_**. If you want to make a copy of the objects in an existing list and use them
+to initialize a new list, be sure to use the **_copy_** method instead.
