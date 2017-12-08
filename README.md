@@ -120,6 +120,18 @@ methods, which include **_append_**,
 7. Shrinking a list at runtime is possible
 due to the inclusion of the **_remove_** and
 pop methods.
-8. Take care when copying one list to another. If you want to have another variable reference an existing list,
-use the assignment operator **_(=)_**. If you want to make a copy of the objects in an existing list and use them
-to initialize a new list, be sure to use the **_copy_** method instead.
+8. Take care when copying one list to another. If you want to have another variable reference an existing list, use the assignment operator **_(=)_**. If you want to make a copy of the objects in an existing list and use them to initialize a new list, be sure to use the **_copy_** method instead.
+9. Lists understand the square bracket notation,
+which can be used to select individual objects
+from any list.
+10. Like a lot of other programming languages,
+Python starts counting from zero, so the first
+object in any list is at index location 0, the
+second at 1, and so on.
+11. Unlike a lot of other programming languages,
+Python lets you index into a list from either end.
+Using –1 selects the last item in the list, –2 the
+second last, and so on.
+12. Lists also provide slices (or fragments) of a list
+by supporting the specification of start, stop,
+and step as part of the square bracket notation.
