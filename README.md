@@ -135,3 +135,27 @@ second last, and so on.
 12. Lists also provide slices (or fragments) of a list
 by supporting the specification of start, stop,
 and step as part of the square bracket notation.
+
+
+### Chapter 3:
+
+
+1. Think of a dictionary as a collection of rows, with each
+row containing exactly two columns. The first column
+stores a **_key_**, while the second contains a **_value_**.
+2. Each row is known as a **_key/value pair_**, and a dictionary
+can grow to contain any number of key/value pairs. Like
+lists, dictionaries grow and shrink on demand.
+3. A dictionary is easy to spot: it’s enclosed in curly braces,
+with each key/value pair separated from the next by a
+comma, and each key separated from its value by a
+colon.
+4. Insertion order is not maintained by a dictionary. The
+order in which rows are inserted has nothing to do with
+how they are stored.
+5. Accessing data in a dictionary uses the **_square bracket
+notation_**. Put a key inside square brackets to access its
+associated value.
+6. Python’s **_for_** loop can be used to iterate over a
+dictionary. On each iteration, the key is assigned to the
+loop variable, which is used to access the data value.
