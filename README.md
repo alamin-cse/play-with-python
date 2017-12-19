@@ -159,3 +159,19 @@ associated value.
 6. Python’s **_for_** loop can be used to iterate over a
 dictionary. On each iteration, the key is assigned to the
 loop variable, which is used to access the data value.
+7. By default, every dictionary is unordered, as insertion
+order is not maintained. If you need to sort a dictionary
+on output, use the **_sorted_** built-in function.
+8. The **_items_** method allows you to iterate over a
+dictionary by row—that is, by key/value pair. On each
+iteration, the **_items_** method returns the next key and
+its associated value to your for **_loop_**.
+9. Trying to access a nonexistent key in an existing
+dictionary results in a **_KeyError_**. When a
+**_KeyError_** occurs, your program crashes with a
+runtime error.
+10. You can avoid a **_KeyError_** by ensuring every key
+in your dictionary has a value associated with it before
+you try to access it. Although the **_in_** and **_not in_**
+operators can help here, the established technique is to
+use the **_setdefault_** method instead.
