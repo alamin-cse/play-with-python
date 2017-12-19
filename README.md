@@ -175,3 +175,16 @@ in your dictionary has a value associated with it before
 you try to access it. Although the **_in_** and **_not in_**
 operators can help here, the established technique is to
 use the **_setdefault_** method instead.
+11. Sets in Python do not allow duplicates.
+12. Like dictionaries, sets are enclosed in curly braces,
+but sets do not identify key/value pairs. Instead, each
+unique object in the set is separated from the next by a
+comma.
+13. Also like dictionaries, sets do not maintain insertion
+order (but can be ordered with the **_sorted_** function).
+14. You can pass any sequence to the set function
+to create a set of elements from the objects in the
+sequence (minus any duplicates).
+15. Sets come pre-packaged with lots of built-in functionality,
+including methods to perform **_union_**, **_difference_**, and
+**_intersection_**.
