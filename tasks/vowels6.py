@@ -8,3 +8,12 @@ for letter in word:
 
 for k,v in sorted(found.items()):
     print(k,'was found',v, 'time(s).')
+
+
+"""vowels6.py” fixed the
+runtime error thanks to
+the use of the “setdefault”
+method, which comes with
+every dictionary (and assigns
+a default value to a key if a
+value isn’t already set)."""
