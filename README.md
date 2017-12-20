@@ -188,3 +188,24 @@ sequence (minus any duplicates).
 15. Sets come pre-packaged with lots of built-in functionality,
 including methods to perform **_union_**, **_difference_**, and
 **_intersection_**.
+
+### Chapter 4:
+
+1. Functions are named chunks of
+code.
+2. The **_def_** keyword is used to name
+a function, with the function’s code
+indented under (and relative to) the
+**_def_** keyword.
+3. Python’s triple-quoted strings can be
+used to add multiline comments to a
+function. When they are used in this
+way, they are known as docstrings.
+4. Functions can accept any number of
+named arguments, including none.
+5. The **_return_** statement lets your
+functions return any number of
+values (including none).
+6. Function annotations can be used to
+document the type of your function’s
+arguments, as well as its return type.
