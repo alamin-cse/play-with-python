@@ -209,3 +209,21 @@ values (including none).
 6. Function annotations can be used to
 document the type of your function’s
 arguments, as well as its return type.
+7. As well as supporting code reuse,
+functions can hide complexity. If you
+have a complex line of code you
+intend to use a lot, abstract it behind
+a simple function call.
+8. Any function argument can be
+assigned a default value in the
+function’s **_def_** line. When this
+happens, the specification of a value
+for that argument during a function’s
+invocation is optional.
+9. As well as assigning arguments by
+position, you can use keywords,
+too. When you do, any ordering is
+acceptable (as any possibility of
+ambiguity is removed by the use of
+keywords and position doesn’t matter
+anymore).
