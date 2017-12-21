@@ -227,3 +227,19 @@ acceptable (as any possibility of
 ambiguity is removed by the use of
 keywords and position doesn’t matter
 anymore).
+10. A module is one or more functions
+saved in a file.
+11. You can share a module by
+ensuring it is always available with
+the interpreter’s current working
+directory (which is possible, but
+brittle) or within the interpreter’s sitepackages
+locations (by far the better
+choice).
+12. Following the **_setuptools_**
+three-step process ensures that
+your module is installed into sitepackages,
+which allows you to
+**_import_** the module and use its
+functions no matter what your current
+working directory happens to be.
